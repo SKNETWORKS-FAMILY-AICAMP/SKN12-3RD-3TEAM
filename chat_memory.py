@@ -14,6 +14,9 @@ import openai
 import numpy as np
 import unicodedata
 import re
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ChromaDB를 위한 디렉토리
 MEMORY_DB_PATH = "./chat_memory_db"
